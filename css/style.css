@@ -3,6 +3,7 @@
 }
 main{
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
 }
 .card{
@@ -40,8 +41,10 @@ p{
 main, .buy{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: flex-end;
+}
+.buy{
+    justify-content: space-between;
 }
 .add_2_cart{
     display: block;
