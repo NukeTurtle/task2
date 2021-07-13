@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid #e2e2e2;
+}
+.image{
+    background: url("../img/shoes.png");
+    height: 205px;
+    width: 300px;
+    background-size: cover;
+}
+.content{
+    padding: 30px 25px;
+    font-weight: 500;
+    color: #666;
+}
+h2{
+    margin: 0;
+    color: #333;
+    font-size: 26px;
+    font-weight: 900;
+}
+.price{
+    color: #333;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 35px;
+}
+p{
+    font-size: 17px;
+    width: calc(100% - 50px);
+}
+main, .buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.add_2_cart{
+    display: block;
+    width: 50px;
+    height: 40px;
+    background: url("../img/cart.png") no-repeat;
+    background-size: 60%;
+    background-color: #4ed17b;
+    background-position: 50%;
+    border-radius: 5px;
+}
